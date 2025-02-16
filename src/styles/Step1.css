@@ -1,0 +1,103 @@
+.step1-container {
+  width: 100%;
+  padding: 0rem;
+  margin: 0rem;
+  height: 98vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  background-color: hsl(206, 94%, 87%);
+}
+
+.inner-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+  width: 55%;
+  padding: 1rem 0rem;
+  border-radius: 0.5rem;
+  background-color: white;
+}
+
+.left-box {
+  display: flex;
+  height: 35rem;
+  border-radius: 0.75rem;
+}
+
+.right-box {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.step1-heading {
+  color: black;
+  font-size: 3rem;
+  font-family: "Ubantu-Regular";
+  font-weight: 500;
+  margin: 0rem;
+}
+
+.step1-subheading {
+  color: gray;
+  font-size: 1rem;
+  font-family: "Ubantu-Medium";
+  font-weight: 500;
+  margin: 0rem;
+  width: 90%;
+}
+
+.input-box {
+  width: 90%;
+  margin: 0;
+}
+
+.input-box h4 {
+  font-family: "Ubantu-Regular";
+  font-size: 1rem;
+  font-weight: 400;
+  margin: 0.75rem 0.75rem 0.75rem 0rem;
+}
+
+.input-box input {
+  width: 90%;
+  border: 1px solid black;
+  padding: 0.75rem 1rem;
+  border-radius: 0.25rem;
+}
+
+.bttn-container {
+  display: flex;
+  width: 90%;
+  margin-top: 1rem;
+  justify-content: flex-end;
+}
+
+.submit-bttn {
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: hsl(213, 96%, 18%);
+  color: white;
+  border-radius: 0.25rem;
+  border: none;
+  padding: 0.75rem 0.5rem;
+}
+
+.error-message {
+  color: red;
+  font-size: 0.875rem;
+  margin-top: 0.25rem;
+  transition: opacity 0.3s ease;
+  font-family: "Ubantu-Medium";
+  font-weight: 500;
+}
+
+.input-error {
+  border: 1px solid red;
+  transition: border-color 0.3s ease; 
+}
