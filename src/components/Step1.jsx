@@ -11,10 +11,7 @@ const Step1 = ({ nextStep }) => {
   const navigate = useNavigate();
 
   const handleNext = () => {
-    // Reset errors
     setErrors({ name: "", email: "", phone: "" });
-
-    // Validate fields
     let hasError = false;
     if (!name) {
       setErrors((prevErrors) => ({
@@ -37,8 +34,6 @@ const Step1 = ({ nextStep }) => {
       }));
       hasError = true;
     }
-
-    // If no errors, navigate to the next step
     if (!hasError) {
       navigate("/step2");
     }

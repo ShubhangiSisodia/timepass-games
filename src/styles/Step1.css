@@ -1,3 +1,5 @@
+/* ///// step1 css ///////// */
+
 .step1-container {
   width: 100%;
   padding: 0rem;
@@ -99,5 +101,38 @@
 
 .input-error {
   border: 1px solid red;
-  transition: border-color 0.3s ease; 
+  transition: border-color 0.3s ease;
+}
+
+/* ///// step2 css ////////// */
+
+.inside-step2-container {
+  display: flex;
+  gap: 0.5rem;
+  width: 100%;
+  height: fit-content;
+}
+
+.inside-step2-container div {
+  background-color: hsl(229, 24%, 87%);
+  height: fit-content;
+  width: 5.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  justify-content: space-around;
+  border-radius: 0.5rem;
+  border: 1px solid black;
+  padding: 0.75rem;
+  margin-top: 2rem;
+}
+
+.inside-step2-container img {
+  height: 2rem;
+  width: 2rem;
+}
+
+.inside-step2-container h2 {
+  margin: 0;
+  font-size: 1rem;
 }
